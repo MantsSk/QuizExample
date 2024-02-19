@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #def2d8; /* Greenish background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+#quiz-container,
+#result-container {
+    max-width: 600px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+#quiz-container {
+    display: block;
+}
+
+#result-container {
+    display: none;
+}
+
+#question {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#image-container {
+    margin-bottom: 20px;
+}
+
+#image {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.option {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.option input[type="radio"] {
+    display: none;
+}
+
+.option label {
+    display: block;
+    padding: 10px;
+    border-radius: 4px;
+    background-color: #f5f5f5;
+    cursor: pointer;
+}
+
+.option input[type="radio"]:checked + label {
+    background-color: #b3e0b3; /* Change background color for checked state */
+}
+
+.option label:hover {
+    background-color: #eaeaea;
+}
+
+#next-btn,
+#try-again-btn {
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#next-btn:hover,
+#try-again-btn:hover {
+    background-color: #0056b3;
+}

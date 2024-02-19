@@ -1,0 +1,31 @@
+{
+    "questions": [
+        {
+            "text": "What is the capital of France?",
+            "image": "images/paris.jpg",
+            "options": [
+                {"text": "Paris", "correct": true},
+                {"text": "London", "correct": false},
+                {"text": "Berlin", "correct": false}
+            ]
+        },
+        {
+            "text": "Which planet is known as the Red Planet?",
+            "image": "images/mars.jpg",
+            "options": [
+                {"text": "Mars", "correct": true},
+                {"text": "Venus", "correct": false},
+                {"text": "Jupiter", "correct": false}
+            ]
+        },
+        {
+            "text": "What is the tallest mountain in the world?",
+            "image": "images/mount-everest.jpg",
+            "options": [
+                {"text": "Mount Everest", "correct": true},
+                {"text": "K2", "correct": false},
+                {"text": "Kangchenjunga", "correct": false}
+            ]
+        }
+    ]
+}
